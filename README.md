@@ -2,6 +2,6 @@
 
 ## Telomere-to-telomere assmebly workflow
 
-[Assembly workflow](data/workflow/assembly_workflow.png)
+![Assembly workflow](data/workflow/assembly_workflow.png)
 
 

@@ -1,0 +1,61 @@
+### project pathway
+CondaENV: /home/wuzhikun/anaconda3/envs/Assembly3
+PIPENV: /home/wuzhikun/github/T2T-Assembly
+project_path: /home/wuzhikun/Project/Vigna
+
+
+THREADS: 8
+ThreadFold: 1
+genomeSize: 500m 
+sub_freq: 0.05
+
+### NanoFilt
+readtype: "1D"
+minQuality: 7
+minLength: 500
+headcrop: 40 
+tailcrop: 30
+
+### fastp
+length_required: 80
+qualified_quality_phred: 15
+unqualified_percent_limit: 30
+cut_window_size: 1
+cut_mean_quality: 20
+
+SAMPLES:
+  - Vigna_unguiculata
+
+
+KMERS:
+  - 17
+  - 19
+  - 21
+  - 23
+  - 25
+  - 27
+  - 29
+  - 31
+  - 33
+  - 35
+  - 37
+  - 39
+  - 41
+  - 43
+  - 45
+  - 47
+  - 49
+  - 51
+  - 53
+  - 55
+
+
+
+
+minimap2: /home/wuzhikun/software/mm2-fast/minimap2
+pilon: /home/wuzhikun/anaconda3/envs/Assembly3/pilon-1.23.jar
+picard: /home/wuzhikun/anaconda3/envs/WGS/bin/picard.jar
+
+
+
+
